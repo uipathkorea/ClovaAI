@@ -80,7 +80,7 @@ namespace ClovaSpeech
             string clientSecret = context.GetValue(this.ClientSecret);
             if( string.IsNullOrEmpty( clientSecret))
             {
-                throw new Exception("Clova API를 호출하기 위한 Client Secrete 값이 없습니다.");
+                throw new Exception("Clova API를 호출하기 위한 Client Secret 값이 없습니다.");
 
             }
 
